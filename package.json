@@ -1,0 +1,24 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "TDD Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './**/*.spec.js' --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mromiario/tdd-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mromiario/tdd-demo/issues"
+  },
+  "homepage": "https://github.com/mromiario/tdd-demo#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
